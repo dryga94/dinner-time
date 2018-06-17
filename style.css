@@ -1,0 +1,103 @@
+header {
+    background-color: #4a4f56;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 0;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color:#eb7e7f;
+}
+h1{
+line-height: 22px;
+margin-top: 15px;
+}
+h3 {
+    margin-top: -7px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+.menu {
+    background-color: #3b3f45;
+    margin: -20px auto;
+    padding-bottom: 50px;
+   
+  
+}
+form{
+    margin: 20px auto;
+    box-sizing: border-box;
+    width: 65%;
+    padding-top: 22px;
+    color:#e7f5f9;
+    font-size: 14pt;
+    display: block;
+}
+form p {
+    background-color: #88839e;
+    margin:0;
+    padding: 0;
+    line-height: 64px;
+  
+   
+}
+form label:nth-child(2n) p {
+    background-color:#7a7593;
+}
+label {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.menu--checkbox {
+    margin-right: 8px;
+    box-sizing: border-box;
+    margin-left: 7px;
+}
+form label p:hover  {
+    background-color:#625e77;
+    border: white solid;
+    border-left: none;
+    border-right: none;
+}
+form label p:active {
+    background-color:#e07b7d;
+}
+form label p:visited {
+    text-decoration:line-through
+}
+  .f__par::after{
+    content: '        (for the next lessons of CSS)';
+    font-size: 9pt;
+    padding-right: 10px;
+}
+.s__par::after{
+    content: '        (for more CSS manipulation)';
+    font-size: 9pt;
+}
+.t__par::after{
+    content: '        (because they are awesome)';
+    font-size: 9pt;
+}
+.fo__par::after{
+    content: '        (hmm, they always desapear)';
+    font-size: 9pt;
+}
+.fi__par::after{
+    content: '    ';
+    font-size: 9pt;
+}
+.si__par::after{
+    content: '        (for my friends)';
+    font-size: 9pt;
+}
+a {
+    display: block;
+    background-color: #4a4f56;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #eb7e7f;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 64px;
+}
